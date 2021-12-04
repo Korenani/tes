@@ -16,13 +16,9 @@ btn.addEventListener("mouseup", kirakira);
 btn.addEventListener("mousedown", dokidoki);
 
 //event handler
-btn.addEventListener("touchstart", function(e){
-	e.prevenDefault();
-	kirakira();
+btn.addEventListener("touchstart", kirakira();
 })
-btn.addEventListener("touchend", function(e){
-	e.prevenDefault();
-	dokidoki();
+btn.addEventListener("touchend", dokidoki();
 })
 
 //the function
