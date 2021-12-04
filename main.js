@@ -11,17 +11,17 @@ const kirakirasound = new Audio("./before.mp3");
 const dokidokisound = new Audio("./after.mp3");
 
 //event handler
-btn.addEventListener("mousedown", dokidoki);
 btn.addEventListener("mouseup", kirakira);
+btn.addEventListener("mousedown", dokidoki);
 
 //event handler
-btn.addEventListener("touchstart", function(e){
-	e.prevenDefault();
-	dokidoki();
-})
 btn.addEventListener("touchend", function(e){
 	e.prevenDefault();
 	kirakira();
+})
+btn.addEventListener("touchstart", function(e){
+	e.prevenDefault();
+	dokidoki();
 })
 //the function
 function kirakira() {
