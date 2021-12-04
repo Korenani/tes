@@ -16,11 +16,11 @@ btn.addEventListener("mouseup", kirakira);
 btn.addEventListener("mousedown", dokidoki);
 
 //event handler
-kasumi.addEventListener("touchend", function(e) {
+addEventListener("touchend", function(e) {
     e.preventDefault();
     kirakira();
 })
-kasumi.addEventListener("touchstart", function(e) {
+addEventListener("touchstart", function(e) {
     e.preventDefault();
     dokidoki();
 })
