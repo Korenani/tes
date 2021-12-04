@@ -11,8 +11,8 @@ const kirakirasound = new Audio("./before.mp3");
 const dokidokisound = new Audio("./after.mp3");
 
 //event handler
-btn.addEventListener("mousedown", kirakira);
-btn.addEventListener("mouseup", dokidoki);
+btn.addEventListener("mousedown", dokidoki);
+btn.addEventListener("mouseup", kirakira);
 
 //event handler
 btn.addEventListener("touchstart", function(e){
@@ -30,6 +30,5 @@ function kirakira() {
 }
 function dokidoki() {
 	kasumi.src = dokidokiimg;
-	dokidokisound.play();
 }
 
