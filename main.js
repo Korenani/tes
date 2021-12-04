@@ -17,11 +17,11 @@ btn.addEventListener("mouseup", kirakira);
 //event handler
 btn.addEventListener("touchstart", function(e){
 	e.prevenDefault();
-	kirakira();
+	dokidoki();
 })
 btn.addEventListener("touchend", function(e){
 	e.prevenDefault();
-	dokidoki();
+	kirakira();
 })
 //the function
 function kirakira() {
