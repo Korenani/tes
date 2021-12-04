@@ -48,7 +48,7 @@ body {
 	outline: none;
 }
 #btn:active {
-	border: 3px solid darkgray;
+	border: 0px solid darkgray;
 	color: white;
 }
 @media only screen and (max-width: 480px) {
