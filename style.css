@@ -37,7 +37,7 @@ body {
 	height: 70px;
 	font-size: 2em;
 	letter-spacing: 3px;
-	border: 3px solid #E0D0C6;
+	border: 3px transparent;
 	background-color: transparent;
 	color: pink;
 	margin-top: 40px;
