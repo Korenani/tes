@@ -4,8 +4,8 @@ const btn = document.querySelector("#btn");
 const itungan = document.querySelector("#itungan")
 
 //The two poping pict
-const kirakiraimg = "./ap.png";
-const dokidokiimg = "./bp.png";
+const kirakiraimg = "./bp.png";
+const dokidokiimg = "./ap.png";
 
 //The two poping sound
 const kirakirasound = new Audio("./before.mp3");
