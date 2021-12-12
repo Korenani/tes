@@ -19,10 +19,10 @@ addEventListener("mousedown", dokidoki);
 //event handler
 addEventListener("touchstart",
         dokidoki();
-)
+);
 addEventListener("touchend",
         kirakira();
-)
+);
 
 //the function
 function kirakira() {
