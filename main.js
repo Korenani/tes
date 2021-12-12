@@ -19,11 +19,11 @@ addEventListener("mousedown", dokidoki);
 //event handler
 addEventListener("touchstart", function(){
         kirakira();
-        kasumi.src= kirakiraimg;
+        
 })
 addEventListener("touchend", function()
        dokidoki();
-       kasumi.src=dokidokiimg;
+       
 })
 
 //the function
