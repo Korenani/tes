@@ -17,11 +17,11 @@ addEventListener("mouseup", kirakira);
 addEventListener("mousedown", dokidoki);
 
 //event handler
-addEventListener("touchstart", function(){
+kasumi.addEventListener("touchstart", function(){
 	prevenDefault()
         kirakira();
 })
-addEventListener("touchend", function(){
+kasumi.addEventListener("touchend", function(){
 	prevenDefault()
         dokidoki();
 })
