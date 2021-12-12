@@ -17,11 +17,10 @@ addEventListener("mouseup", kirakira);
 addEventListener("mousedown", dokidoki);
 
 //event handler
-addEventListener("touchstart", function(){
+img.addEventListener("touchstart", function(){
 	kirakira();
-        img src= "ap.png";
 })
-addEventListener("touchmove", function(){
+img.addEventListener("touchmove", function(){
 	dokidoki();
 })
 
