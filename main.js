@@ -21,7 +21,7 @@ addEventListener("touchstart", function(){
         kirakira();
         
 })
-addEventListener("touchend", function()
+addEventListener("touchend", function(){
        dokidoki();
        
 })
