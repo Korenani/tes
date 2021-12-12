@@ -16,17 +16,17 @@ const dokidokisound = new Audio("./after.mp3");
 addEventListener("mouseup", kirakira);
 addEventListener("mousedown", dokidoki);
 
-//event handler
+//Touchevent
 addEventListener("touchstart", function(){
         prevenDefault()
         kirakira();
         
-})
+});
 addEventListener("touchend", function(){
        prevenDefault()
        dokidoki();
        
-})
+});
 
 //the function
 function kirakira() {
@@ -35,4 +35,6 @@ function kirakira() {
 }
 function dokidoki() {
 	kasumi.src = dokidokiimg;	
+        score++;
+	itungan.innerHTML = score;
 }
