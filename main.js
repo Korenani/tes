@@ -34,7 +34,5 @@ function kirakira() {
 	kirakirasound.play();
 }
 function dokidoki() {
-	kasumi.src = dokidokiimg;
-        score++;
-	itungan.innerHTML = score;	
+	kasumi.src = dokidokiimg;	
 }
