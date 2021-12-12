@@ -19,12 +19,12 @@ addEventListener("mousedown", dokidoki);
 //event handler
 addEventListener("touchstart", function(){
         prevenDefault()
-        dokidoki();
+        kirakira();
         
 })
 addEventListener("touchend", function(){
        prevenDefault()
-       kirakira();
+       dokidoki();
        
 })
 
@@ -32,10 +32,9 @@ addEventListener("touchend", function(){
 function kirakira() {
 	kasumi.src = kirakiraimg;
 	kirakirasound.play();
-        score++;
-	itungan.innerHTML = score;
 }
 function dokidoki() {
 	kasumi.src = dokidokiimg;
-	
+        score++;
+	itungan.innerHTML = score;	
 }
