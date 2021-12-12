@@ -33,10 +33,11 @@ body {
 	font-family: Nunito, sans-serif;
 	color: white;
 	margin-bottom: -6%;
+        user-select: none;
 }
 
 #kasumi {
-	
+	user-select: none;
 }
 
 #btn {
