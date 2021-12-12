@@ -23,7 +23,7 @@ addEventListener("touchstart", function(){
 })
 addEventListener("touchend", function()
        dokidoki();
-       kasumi.src=dokidoki.img;
+       kasumi.src=dokidokiimg;
 })
 
 //the function
