@@ -21,7 +21,7 @@ addEventListener("touchstart", function(e){
 	e.prevenDefault();
 	kirakira();
 })
-addEventListener("touchend", function(e){
+addEventListener("touchmove", function(e){
 	e.prevenDefault();
 	dokidoki();
 })
