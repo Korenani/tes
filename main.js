@@ -19,11 +19,11 @@ addEventListener("mousedown", dokidoki);
 //event handler
 addEventListener("touchstart", function (e)
         prevenDefault()
-        e.dokidoki();
+        e.dokidoki()
 );
 addEventListener("touchend", function (e){
         prevenDefault()
-       e.kirakira();
+       e.kirakira()
 });
 
 //the function
