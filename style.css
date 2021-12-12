@@ -1,5 +1,10 @@
 body {
-	height: 100vh;
+	user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        -khtml-user-select:none;
+        -webkit-user-select:none;
+        height: 100vh;
 	background-image: url(background.png);
 	display: flex;
 	justify-content: center;
