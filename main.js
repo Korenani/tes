@@ -2,7 +2,7 @@
 var kasumi = document.querySelector("#kasumi");
 const btn = document.querySelector("#btn");
 var itungan = document.querySelector("#score")
-var score = 0;
+var score = 9;
 
 //The two poping pict
 const kirakiraimg = "./bp.png";
