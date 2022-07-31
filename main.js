@@ -1,6 +1,6 @@
 //Reference to DOM elements
 var kasumi = document.querySelector("#kasumi");
-const btn = document.querySelector("#btn");
+
 var itungan = document.querySelector("#score")
 var score = 0;
 
