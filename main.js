@@ -30,7 +30,7 @@ addEventListener("touchend", function(e){
 
 //the function
 function kirakira() {
-	
+	kasumi.src = kirakiraimg
 	kirakirasound.play();
 }
 function dokidoki() {	
