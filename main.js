@@ -37,4 +37,5 @@ function dokidoki() {
 	kasumi.src = dokidokiimg;	
 	itungan.innerHTML = score;
         score++;
+        kasumi.src = kirakiraimg;
 }
