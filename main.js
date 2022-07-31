@@ -30,10 +30,11 @@ addEventListener("touchend", function(e){
 
 //the function
 function kirakira() {
-	kasumi.src = dokidokiimg;
+	
 	kirakirasound.play();
 }
 function dokidoki() {	
+        kasumi.src = dokidokiimg
 	itungan.innerHTML = score;
         score++;
 }
