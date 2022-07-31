@@ -33,8 +33,7 @@ function kirakira() {
 	kasumi.src = dokidokiimg;
 	kirakirasound.play();
 }
-function dokidoki() {
-	kasumi.src = kirakiraimg;	
+function dokidoki() {	
 	itungan.innerHTML = score;
         score++;
 }
